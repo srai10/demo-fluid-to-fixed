@@ -11,6 +11,12 @@ body {
     text-transform: uppercase;
 }
 
+img {
+    /* make all images resizable and they are limited to the max width of their parent container */
+    max-width: 100%;
+    display: block;
+}
+
 .container {
 
     /*max-width will allow the container to be fluid on smaller viewports and then become fixed when it becomes 960px wide */
